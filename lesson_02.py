@@ -39,8 +39,7 @@ def writeMass(mass, N, fileName):
             file.write('\n')
 
 
-# i + j = n - 1
-# j = n - 1 - i
+# bla bla bla
 def exchange(mass, N):
     for i in range(N):
         for j in range(N):
