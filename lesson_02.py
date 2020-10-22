@@ -21,6 +21,7 @@ def readMass(fileName):
     return mass, N
 
 
+# Function print 2d array to screen
 def printMass(mass, N):
     for i in range(N):
         for j in range(N):
@@ -29,6 +30,7 @@ def printMass(mass, N):
         print()
 
 
+# Function write 2d array to file
 def writeMass(mass, N, fileName):
     with open(fileName, 'w') as file:
         for i in range(N):
