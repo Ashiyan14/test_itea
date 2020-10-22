@@ -38,6 +38,7 @@ def writeMass(mass, N, fileName):
                 file.write("%-4d" % mass[i][j])
             file.write('\n')
 
+# new comment
 # i + j = n - 1
 # j = n - 1 - i
 def exchange(mass, N):
